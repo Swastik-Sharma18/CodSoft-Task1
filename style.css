@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kalam&display=swap&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(tron-le-aAn-_iTks4E-unsplash.jpg);
+    background-size: cover;
+}
+
+.nav_content {
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nav_links a{
+    color: #FFFFFF;
+    text-decoration:none;
+    font-weight: 700 ;
+    font-size: 20px ;
+    transition: 0.1s ease-out;
+    
+}
+.nav_links a:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+.nav_logo{
+    font-family: 'Black Ops One', cursive;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.nav_links{
+    font-family:'Roboto', sans-serif; 
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+.nav_item{
+    padding-top: 15px;
+    margin: 0 20px;
+}
+
+.nav_btn{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    padding: 15px 40px;
+    border-radius: 20px;
+    margin-right:20px ;
+    margin-left:10px ;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Roboto', sans-serif; 
+    text-transform: uppercase;
+}
+.nav_btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+}
+.nav_btn:active{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    transform: translate(0,-5px);
+    transition: all 1sec ease-out;
+}
+
+.container h1{
+    display: inline-block;
+    margin: 30vh auto;  
+    margin-left: 35%;
+    font-family:'Roboto', sans-serif; 
+    margin-bottom: 10px;  
+    color: #FFFFFF;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.search_destination{
+    background-color: rgba(31, 122, 140, 0.5);
+    width:70%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-family:'Roboto', sans-serif; 
+}
+.search_destination form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form_items{
+    padding: 0 10px;
+    border-right: 2px dashed #FFFFFF;
+    
+}
+.form_items input{
+    display: block;
+    border:0;
+    color: #FFFFFF;
+    outline: none;
+    background: hsla(0, 0%, 0%, 0.5);
+    border:2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 5px solid whitesmoke;
+}
+.form_items input:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+}
+
+.form_items label{
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #FFFFFF
+}
+.form_items input::placeholder{
+    text-align: center;
+    color: #FFFFFF;
+}
+.search_destination button{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    border-radius: 20px;
+    color:#FFFFFF;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.search_destination button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+}
+.search_destination button:active{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    transform: translate(0,-5px);
+    transition: all 1sec ease-out;
+}
+/************************ main ***********************/
+main .container1{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    font-family:'Roboto', sans-serif; 
+    color: white;
+}
+.best_offers{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 50px;
+    margin-top: 0;
+    padding: 50px 40%;
+    text-decoration: 5px underline darkcyan;
+}
+.best_offers_img {
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:10px;
+    height: 100vh;
+    margin: 0 10px;
+    margin-bottom: 40px;
+}
+.best_offers_img img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    filter: blur(1px);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.best_offers_img span { 
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.best_offers_img div{
+    position: relative;
+}
+.best_offers_img div span{
+    position: absolute;
+    top: -5%;
+    left: -6%;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    padding-right: 38px;
+}
+.best_offers_btn{
+    cursor: pointer;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius:10px ;
+}
+.best_offers_btn:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+.best_offers_btn:active{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    transform: translate(0,-5px);
+    transition: all 1sec ease-out;
+}
+/********************* about *****************/
+.about{
+    width: 100%;
+    height: 80vh;
+    background-image: url(aboutPic.jpg);
+    background-size: cover; 
+    font-family:'Roboto', sans-serif; 
+    color: #FFFFFF;
+}
+.about_heading h3{
+    text-align: center;
+    padding: 30px 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.about_heading h2{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 40PX;
+}
+.about_items{
+    display: flex;
+    padding: 10px;
+    
+}
+.about_items span{
+    display: block;
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-left: 190px;
+    color: #FFFFFF;
+}
+.about_items p{
+    text-align: center;
+    margin: calc(40%/3);
+    margin-top: 0;
+    padding-top: 20px;
+    color:#FFFFFF;
+    
+}
+.about_items h3{
+    text-align: center;
+    padding-top: 10px;
+    color:#FFFFFF;
+    
+}
+.luxurious_hotels , .travel_guide, .affordable_prices{
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+/********************** blogs *****************/
+.Blog {
+    width: 100%;
+    height: 120vh;
+    padding: 50px 0;
+    padding-bottom: 0;
+    color: white;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    margin-top:30px;
+  }
+.Blog h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 60px;
+    text-decoration: 5px underline darkcyan;
+  }
+.blog-suggested {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+.blog-suggested img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    border: 5px solid white;
+  }
+.layer {
+    height: 0%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), darkcyan);
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 0.5s;
+  }
+.layer h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+.layer a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color:black;
+    border-radius: 50%;
+  }
+ 
+.blog-list {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin: 0 20px;
+  }
+.blog-suggested:hover img {
+    transform: scale(1.1);
+  }
+.blog-suggested:hover .layer {
+    height: 52%;
+  }
+.blog-btn {
+    display: block;
+    margin: 40px auto;
+    width: fit-content;
+    border: 2px solid white;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    transition: background 0.5s;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 230px;
+  }
+.blog-btn:hover {
+    background-color: darkcyan;
+    color: rgb(255, 255, 255);
+  }
+/************** footer ***********/
+footer{
+    width: 100%;
+    height: 15vh;
+    padding: 20px 0;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+}
+.social-media-links a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.copy-right{
+    color: aliceblue;
+    border-top: 2px solid aliceblue;
+    padding-top: 10px;
+}
